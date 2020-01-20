@@ -16,7 +16,7 @@ variables:
 
 steps:
 - task: UseDotNet@2
-- displayName: 'Use >net Core SDK 2.1.505'
+  displayName: 'Use >net Core SDK 2.1.505'
   inputs:
     packageType: sdk
     version: 2.1.505
